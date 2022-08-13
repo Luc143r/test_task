@@ -4,10 +4,12 @@
 Получить данные о всех товарах одной категории из каталога сайта. Категорию можно взять любую, главное, чтобы товаров в ней было больше 500. Все данные должны быть собраны по Москве и Санкт-Петербургу.
 
 Примеры ссылок на категории:
-
-https://www.detmir.ru/catalog/index/name/lego/
-https://www.detmir.ru/catalog/index/name/zdorovyj_perekus_pp/
-https://www.detmir.ru/catalog/index/name/accessori_car_interior/
+  
+<ul>
+<li>https://www.detmir.ru/catalog/index/name/lego/</li>
+<li>https://www.detmir.ru/catalog/index/name/zdorovyj_perekus_pp/</li>
+<li>https://www.detmir.ru/catalog/index/name/accessori_car_interior/</li>
+</ul>
 
 Требуется извлечь:</p>
 <ul>
