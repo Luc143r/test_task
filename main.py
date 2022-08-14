@@ -37,9 +37,7 @@ def write_csv(city):
 
 
 def parse_all_products(headers):
-    f = open('all_product.json', encoding='utf8')
     with open('data_product.csv', 'a', newline='') as file:
-        data = json.load(f)
         headers_data = ['id', 'name', 'price', 'city', 'promo_price', 'link']
         writer = csv.writer(file, delimiter=';')
         writer.writerow(headers_data)
